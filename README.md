@@ -16,5 +16,6 @@ This repository contains all of the source code used in the course **'HTML, CSS,
 
 # Outputs :
 
-* [Module-2] 
+* [Module-2] (https://joeluke96.github.io/HTML-CSS-and-Javascript-for-Web-Developers-by-Johns-Hopkins-University/Assignments/Module-2/index.html)
+
 
