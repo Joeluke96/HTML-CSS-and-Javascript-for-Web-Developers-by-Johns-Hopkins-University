@@ -1,0 +1,103 @@
+/* basic styling */
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: white;
+}
+
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+}
+
+.box {
+  width: 100%;
+  overflow: none;
+}
+
+
+.box-name {
+  overflow: none;
+  text-align: center;
+  border: 4px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  float: right;
+  margin-right: 36px;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+}
+
+.content {
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black;
+  font-size: 20px;
+  padding: 5%;
+  padding-top: 55px;
+  background-color: gray;
+
+}
+
+.food1 {
+  background-color: #FFB6C1;
+}
+
+.food2 {
+  color: white;
+  background-color: #FF0000;
+}
+.food3 {
+  background-color: #FFFF00;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .food3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+  .box-name{
+    margin-right: 30px;
+  }
+}
