@@ -2,7 +2,7 @@
 **Hi** **I am** **Joel Lukose**. 
 This repository contains all of the source code used in the course **'HTML, CSS, and Javascript for Web Developers by Johns Hopkins University'**.
 
-
+![Course Completion certificate](https://github.com/Joeluke96/HTML-CSS-and-Javascript-for-Web-Developers-by-Johns-Hopkins-University/blob/main/Certificate.png)
 
 
 # Assignments :
